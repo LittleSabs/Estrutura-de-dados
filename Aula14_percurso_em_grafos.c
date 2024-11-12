@@ -78,7 +78,7 @@ void procurarPercurso (int grafo[QTD_VERTICES][QTD_VERTICES],
     if (procurarPercursoRecursivo(grafo, visitado, inicio, fim)) {
         printf("%d\n", inicio);
     } else {
-        printf("SE FUDEU !!! NAO HA CAMINHO ENTRE ESSES VERTICES !\n");
+        printf("NAO HA CAMINHO ENTRE ESSES VERTICES !\n");
     }
 }
 
